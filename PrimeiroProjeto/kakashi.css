@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+ background-image: url('https://wallpapercave.com/wp/wp8782440.jpg');
+background-size: contain;
+}
+
+
+p {
+    font-size: 20px;
+   }
+
+h1,h2,h4 {
+    font-size: 50px;
+    color: crimson;}
+
+ul,ol {
+    font-size: 20px;
+    color: darkmagenta;}
+
