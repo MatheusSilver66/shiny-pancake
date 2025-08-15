@@ -12,6 +12,48 @@ body {
   text-align: left;
 }
 
+/* Adicione ao final do arquivo */
+body.dark {
+  background-color: #222;
+  color: #f5f4f0;
+}
+body.dark div,
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+  color: #e1624f;
+}
+body.dark footer {
+  background: #333;
+  color: #f5f4f0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header button {
+  background: linear-gradient(90deg, #e1624f 0%, #ffb347 100%);
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 6px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(225, 98, 79, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+header button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(225, 98, 79, 0.22);
+  background: linear-gradient(90deg, #ffb347 0%, #e1624f 100%);
+}
+
 h1 {
   font-size: 36px;
   font-weight: bold;
